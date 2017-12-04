@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Browser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6eU-Od-lBH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wAI-RX-fBP">
+                                <rect key="frame" x="0.0" y="228" width="375" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52785081990000005" green="0.16967239210000001" blue="0.3548724278" alpha="0.67867080479999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Firanda.com">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Yufid">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99875190150000004" green="1" blue="0.97648475300000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="QXi-Wm-E1t" kind="modal" id="jlL-gs-UX9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IiQ-i3-Siy">
+                                <rect key="frame" x="0.0" y="308" width="375" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52785081990000005" green="0.16967239210000001" blue="0.3548724278" alpha="0.67867080479999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Firanda.com">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Firanda">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99875190150000004" green="1" blue="0.97648475300000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="1nl-vU-ctR" kind="modal" id="Hnt-re-Ndd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J6v-FU-apg">
+                                <rect key="frame" x="0.0" y="455" width="375" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52785081990000005" green="0.16967239210000001" blue="0.3548724278" alpha="0.67867080479999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Firanda.com">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Remaja Islam">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99875190150000004" green="1" blue="0.97648475300000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="ZGr-vN-7Gz" kind="modal" id="ajA-VW-sAQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOB-l5-2Ld">
+                                <rect key="frame" x="0.0" y="377" width="375" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52785081990000005" green="0.16967239210000001" blue="0.3548724278" alpha="0.67867080479999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Firanda.com">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Gaul Islam">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99875190150000004" green="1" blue="0.97648475300000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="MKM-fc-Y1J" kind="modal" id="dR0-kS-KTZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfx-J0-a6h">
+                                <rect key="frame" x="16" y="36" width="346" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Muslim Browser">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                            <font key="NSOriginalFont" size="48" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="led-VG-Klp">
+                                <rect key="frame" x="0.0" y="534" width="375" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52785081990000005" green="0.16967239210000001" blue="0.3548724278" alpha="0.67867080479999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Firanda.com">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Konsultasi Syariah">
+                                            <attributes>
+                                                <color key="NSColor" red="0.99875190150000004" green="1" blue="0.97648475300000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="uVq-xg-o9O" kind="modal" id="9Mz-HC-DZb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vA8-yA-Jtk">
+                                <rect key="frame" x="124" y="617" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Info Developer"/>
+                                <connections>
+                                    <segue destination="Yxd-SE-Ywq" kind="modal" id="BZK-AJ-zMZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="29.600000000000001" y="149.77511244377811"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Rtd-wq-q1g">
+            <objects>
+                <viewController id="Yxd-SE-Ywq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eGD-cC-Ymk"/>
+                        <viewControllerLayoutGuide type="bottom" id="3wJ-Rr-0Nl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HeJ-7s-x9p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7BZ-Na-oyf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Info Developer" id="Dln-xt-OV3">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="cnA-dg-LCq">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="1rV-Ga-6kq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Developer.png" translatesAutoresizingMaskIntoConstraints="NO" id="yVD-A9-xFE">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="raY-tL-QZn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-652" y="528.48575712143929"/>
+        </scene>
+        <!--Yufid View Controller-->
+        <scene sceneID="9d6-IQ-7nZ">
+            <objects>
+                <viewController id="QXi-Wm-E1t" customClass="YufidViewController" customModule="Browser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0pV-uR-msV"/>
+                        <viewControllerLayoutGuide type="bottom" id="D7K-pI-it3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UNu-2E-Klx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hQq-wB-Iga">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qnn-pL-WrU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Yufid.tv" id="EPv-v7-FOa">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="p0V-3I-xfS">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="0Lx-uD-1PD"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="WebView" destination="hQq-wB-Iga" id="7Ie-Th-glc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sMb-s2-HFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12" y="849"/>
+        </scene>
+        <!--Sa View Controller-->
+        <scene sceneID="cKh-Oz-otY">
+            <objects>
+                <viewController id="MKM-fc-Y1J" customClass="SaViewController" customModule="Browser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ilZ-QT-quf"/>
+                        <viewControllerLayoutGuide type="bottom" id="FIs-qv-mrH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="odl-br-aWU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sBP-oB-PGF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Gaul Islam" id="p7o-Gk-EfD">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="zpD-Hg-4ax">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="iM2-f0-ssl"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hd3-9f-mwR">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="hd3-9f-mwR" id="bAe-8y-P88"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTi-A1-gDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="853"/>
+        </scene>
+        <!--Remaja View Controller-->
+        <scene sceneID="34w-lo-Vsz">
+            <objects>
+                <viewController id="ZGr-vN-7Gz" customClass="RemajaViewController" customModule="Browser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QjD-AM-ct4"/>
+                        <viewControllerLayoutGuide type="bottom" id="NmR-Yi-Z2A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KGZ-h8-lWb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhV-x0-FOZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Remaja Islam" id="IwI-ZG-Wh0">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="G2t-MT-pPb">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="OFl-Lu-BhM"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bx8-ih-PTL">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="bx8-ih-PTL" id="WS8-wK-GRw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qHM-mD-d4k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2140" y="849"/>
+        </scene>
+        <!--Muslim View Controller-->
+        <scene sceneID="aMZ-2X-UTC">
+            <objects>
+                <viewController id="1nl-vU-ctR" customClass="MuslimViewController" customModule="Browser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Riv-d9-9NQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="6w8-cM-Mec"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vnq-ss-lMk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Raw-q7-E9c">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Firanda.com" id="TNL-je-ju5">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="BoZ-xH-bPT">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="oqL-B5-wot"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNk-KI-H7M">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="gNk-KI-H7M" id="wpD-W4-0kV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFw-I2-OHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892" y="111"/>
+        </scene>
+        <!--Ks View Controller-->
+        <scene sceneID="gwB-zv-yYx">
+            <objects>
+                <viewController id="uVq-xg-o9O" customClass="KsViewController" customModule="Browser" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qgs-t0-yZq"/>
+                        <viewControllerLayoutGuide type="bottom" id="gXM-im-aD2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HEr-OZ-l2e">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FT1-c0-1ZL">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ar7-JD-ceA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="konsultasisyariah.com" id="Cpr-kc-oZD">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="9WG-qY-amh">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="ZF5-mV-ZGR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="FT1-c0-1ZL" id="d1f-md-t4I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nv2-sm-hYd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1575" y="136"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2d2575ef486559ed5ad60655ef152c84--wallpaper-azul-wallpaper-backgrounds (1).jpg" width="736" height="1309"/>
+        <image name="Developer.png" width="360" height="600"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1rV-Ga-6kq"/>
+    </inferredMetricsTieBreakers>
+</document>
